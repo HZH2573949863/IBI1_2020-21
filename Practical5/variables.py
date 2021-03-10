@@ -1,8 +1,8 @@
-a=020208
-b=190784
-c=210310
-d= abs(a-c)
-e= abs(a-b)
+a="020208"
+b="190784"
+c="210310"
+d= abs(int(a)-int(c))
+e= abs(int(a)-int(b))
 if d < e:
  print ("d<e")
 elif d > e:
